@@ -1,0 +1,7 @@
+D:\asp2023-2nd\da4\ConsoleDay4\ConsoleDay4\bin\Debug\ConsoleDay4.exe.config
+D:\asp2023-2nd\da4\ConsoleDay4\ConsoleDay4\bin\Debug\ConsoleDay4.exe
+D:\asp2023-2nd\da4\ConsoleDay4\ConsoleDay4\bin\Debug\ConsoleDay4.pdb
+D:\asp2023-2nd\da4\ConsoleDay4\ConsoleDay4\obj\Debug\ConsoleDay4.csproj.AssemblyReference.cache
+D:\asp2023-2nd\da4\ConsoleDay4\ConsoleDay4\obj\Debug\ConsoleDay4.csproj.CoreCompileInputs.cache
+D:\asp2023-2nd\da4\ConsoleDay4\ConsoleDay4\obj\Debug\ConsoleDay4.exe
+D:\asp2023-2nd\da4\ConsoleDay4\ConsoleDay4\obj\Debug\ConsoleDay4.pdb

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34114.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDay4", "ConsoleDay4\ConsoleDay4.csproj", "{D86D132C-18D5-452F-8BB9-4E85E8A9A3F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cosoleDay4Demo2", "cosoleDay4Demo2\cosoleDay4Demo2.csproj", "{ACD136C1-CD1A-4655-AC56-AFB869F7014E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosoleDay4Demo3", "CosoleDay4Demo3\CosoleDay4Demo3.csproj", "{29B88396-6AFF-4A9D-97E5-03E1FFD5EE05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDay4Demo4", "ConsoleDay4Demo4\ConsoleDay4Demo4.csproj", "{1E1B9FAE-0C07-48F0-8C57-F618F54268BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDay4Demo5", "ConsoleDay4Demo5\ConsoleDay4Demo5.csproj", "{660BAF2F-8C5F-4D4F-83C0-83DEE63A7E57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDay4Demo6", "ConsoleDay4Demo6\ConsoleDay4Demo6.csproj", "{1B1161C8-3073-4C49-9452-CB4917172C47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDday4Demo7", "ConsoleDday4Demo7\ConsoleDday4Demo7.csproj", "{0CB69A44-69E2-4709-A01E-FAE107730FF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D86D132C-18D5-452F-8BB9-4E85E8A9A3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86D132C-18D5-452F-8BB9-4E85E8A9A3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86D132C-18D5-452F-8BB9-4E85E8A9A3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86D132C-18D5-452F-8BB9-4E85E8A9A3F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD136C1-CD1A-4655-AC56-AFB869F7014E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD136C1-CD1A-4655-AC56-AFB869F7014E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD136C1-CD1A-4655-AC56-AFB869F7014E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD136C1-CD1A-4655-AC56-AFB869F7014E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B88396-6AFF-4A9D-97E5-03E1FFD5EE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B88396-6AFF-4A9D-97E5-03E1FFD5EE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B88396-6AFF-4A9D-97E5-03E1FFD5EE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B88396-6AFF-4A9D-97E5-03E1FFD5EE05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E1B9FAE-0C07-48F0-8C57-F618F54268BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E1B9FAE-0C07-48F0-8C57-F618F54268BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E1B9FAE-0C07-48F0-8C57-F618F54268BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E1B9FAE-0C07-48F0-8C57-F618F54268BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{660BAF2F-8C5F-4D4F-83C0-83DEE63A7E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660BAF2F-8C5F-4D4F-83C0-83DEE63A7E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660BAF2F-8C5F-4D4F-83C0-83DEE63A7E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660BAF2F-8C5F-4D4F-83C0-83DEE63A7E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B1161C8-3073-4C49-9452-CB4917172C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B1161C8-3073-4C49-9452-CB4917172C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B1161C8-3073-4C49-9452-CB4917172C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B1161C8-3073-4C49-9452-CB4917172C47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB69A44-69E2-4709-A01E-FAE107730FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB69A44-69E2-4709-A01E-FAE107730FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB69A44-69E2-4709-A01E-FAE107730FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB69A44-69E2-4709-A01E-FAE107730FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {669152C1-FE02-4E8F-9F90-B1C8AEB26200}
+	EndGlobalSection
+EndGlobal

@@ -4,3 +4,4 @@ D:\asp2023-2nd\day3\CstConsoleDay3\ConsoleDay3Demo2\bin\Debug\ConsoleDay3Demo2.p
 D:\asp2023-2nd\day3\CstConsoleDay3\ConsoleDay3Demo2\obj\Debug\ConsoleDay3Demo2.csproj.CoreCompileInputs.cache
 D:\asp2023-2nd\day3\CstConsoleDay3\ConsoleDay3Demo2\obj\Debug\ConsoleDay3Demo2.exe
 D:\asp2023-2nd\day3\CstConsoleDay3\ConsoleDay3Demo2\obj\Debug\ConsoleDay3Demo2.pdb
+D:\asp2023-2nd\day3\CstConsoleDay3\ConsoleDay3Demo2\obj\Debug\ConsoleDay3Demo2.csproj.AssemblyReference.cache
