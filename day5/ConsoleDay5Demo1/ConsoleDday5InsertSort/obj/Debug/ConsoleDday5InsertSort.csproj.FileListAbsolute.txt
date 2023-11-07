@@ -1,0 +1,7 @@
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDday5InsertSort\bin\Debug\ConsoleDday5InsertSort.exe.config
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDday5InsertSort\bin\Debug\ConsoleDday5InsertSort.exe
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDday5InsertSort\bin\Debug\ConsoleDday5InsertSort.pdb
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDday5InsertSort\obj\Debug\ConsoleDday5InsertSort.csproj.AssemblyReference.cache
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDday5InsertSort\obj\Debug\ConsoleDday5InsertSort.csproj.CoreCompileInputs.cache
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDday5InsertSort\obj\Debug\ConsoleDday5InsertSort.exe
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDday5InsertSort\obj\Debug\ConsoleDday5InsertSort.pdb

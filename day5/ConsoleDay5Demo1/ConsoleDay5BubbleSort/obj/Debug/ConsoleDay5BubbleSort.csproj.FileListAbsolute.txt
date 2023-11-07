@@ -1,0 +1,7 @@
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDay5BubbleSort\bin\Debug\ConsoleDay5BubbleSort.exe.config
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDay5BubbleSort\bin\Debug\ConsoleDay5BubbleSort.exe
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDay5BubbleSort\bin\Debug\ConsoleDay5BubbleSort.pdb
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDay5BubbleSort\obj\Debug\ConsoleDay5BubbleSort.csproj.AssemblyReference.cache
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDay5BubbleSort\obj\Debug\ConsoleDay5BubbleSort.csproj.CoreCompileInputs.cache
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDay5BubbleSort\obj\Debug\ConsoleDay5BubbleSort.exe
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDay5BubbleSort\obj\Debug\ConsoleDay5BubbleSort.pdb

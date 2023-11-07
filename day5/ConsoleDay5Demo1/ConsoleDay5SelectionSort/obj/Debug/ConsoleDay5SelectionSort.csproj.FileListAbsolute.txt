@@ -1,0 +1,7 @@
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDay5SelectionSort\bin\Debug\ConsoleDay5SelectionSort.exe.config
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDay5SelectionSort\bin\Debug\ConsoleDay5SelectionSort.exe
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDay5SelectionSort\bin\Debug\ConsoleDay5SelectionSort.pdb
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDay5SelectionSort\obj\Debug\ConsoleDay5SelectionSort.csproj.AssemblyReference.cache
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDay5SelectionSort\obj\Debug\ConsoleDay5SelectionSort.csproj.CoreCompileInputs.cache
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDay5SelectionSort\obj\Debug\ConsoleDay5SelectionSort.exe
+D:\asp2023-2nd\day5\ConsoleDay5Demo1\ConsoleDay5SelectionSort\obj\Debug\ConsoleDay5SelectionSort.pdb
