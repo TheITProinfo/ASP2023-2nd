@@ -11,6 +11,7 @@ namespace ConsoleDday5InsertSort
     {
         static void Main(string[] args)
         {
+             //insert sorting example
             #region step by step example
             ////insert sorting
 

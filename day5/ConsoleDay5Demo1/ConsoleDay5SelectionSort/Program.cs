@@ -12,7 +12,7 @@ namespace ConsoleDay5SelectionSort
         {
             //selection sorting
 
-            int[] arr={23,33,11,10,44,55};
+            int[] arr={23,33,11,10,44,-55,-22};
 
             int min;
 

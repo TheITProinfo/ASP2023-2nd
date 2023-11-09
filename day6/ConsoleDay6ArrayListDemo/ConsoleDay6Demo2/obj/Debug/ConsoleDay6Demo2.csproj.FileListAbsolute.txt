@@ -1,0 +1,7 @@
+D:\asp2023-2nd\day6\ConsoleDay6ArrayListDemo\ConsoleDay6Demo2\bin\Debug\ConsoleDay6Demo2.exe.config
+D:\asp2023-2nd\day6\ConsoleDay6ArrayListDemo\ConsoleDay6Demo2\bin\Debug\ConsoleDay6Demo2.exe
+D:\asp2023-2nd\day6\ConsoleDay6ArrayListDemo\ConsoleDay6Demo2\bin\Debug\ConsoleDay6Demo2.pdb
+D:\asp2023-2nd\day6\ConsoleDay6ArrayListDemo\ConsoleDay6Demo2\obj\Debug\ConsoleDay6Demo2.csproj.AssemblyReference.cache
+D:\asp2023-2nd\day6\ConsoleDay6ArrayListDemo\ConsoleDay6Demo2\obj\Debug\ConsoleDay6Demo2.csproj.CoreCompileInputs.cache
+D:\asp2023-2nd\day6\ConsoleDay6ArrayListDemo\ConsoleDay6Demo2\obj\Debug\ConsoleDay6Demo2.exe
+D:\asp2023-2nd\day6\ConsoleDay6ArrayListDemo\ConsoleDay6Demo2\obj\Debug\ConsoleDay6Demo2.pdb
