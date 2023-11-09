@@ -26,6 +26,9 @@ namespace ConsoleDay6Demo2
 
         }
 
+       // propfull
+       
+
         // define constructors method
 
         public Student(string name, string address)    // constructors  with 2 parameters
