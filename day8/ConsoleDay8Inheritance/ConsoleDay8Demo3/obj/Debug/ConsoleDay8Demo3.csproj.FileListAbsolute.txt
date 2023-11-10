@@ -1,0 +1,7 @@
+D:\asp2023-2nd\day8\ConsoleDay8Inheritance\ConsoleDay8Demo3\bin\Debug\ConsoleDay8Demo3.exe.config
+D:\asp2023-2nd\day8\ConsoleDay8Inheritance\ConsoleDay8Demo3\bin\Debug\ConsoleDay8Demo3.exe
+D:\asp2023-2nd\day8\ConsoleDay8Inheritance\ConsoleDay8Demo3\bin\Debug\ConsoleDay8Demo3.pdb
+D:\asp2023-2nd\day8\ConsoleDay8Inheritance\ConsoleDay8Demo3\obj\Debug\ConsoleDay8Demo3.csproj.AssemblyReference.cache
+D:\asp2023-2nd\day8\ConsoleDay8Inheritance\ConsoleDay8Demo3\obj\Debug\ConsoleDay8Demo3.csproj.CoreCompileInputs.cache
+D:\asp2023-2nd\day8\ConsoleDay8Inheritance\ConsoleDay8Demo3\obj\Debug\ConsoleDay8Demo3.exe
+D:\asp2023-2nd\day8\ConsoleDay8Inheritance\ConsoleDay8Demo3\obj\Debug\ConsoleDay8Demo3.pdb
