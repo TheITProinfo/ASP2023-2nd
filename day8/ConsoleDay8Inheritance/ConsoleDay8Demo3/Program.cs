@@ -27,6 +27,7 @@ namespace ConsoleDay8Demo3
             Pseron myPseron =new Student();
             Student stu1 = myPseron as Student;
             stu1.StudentSpeak();
+
             Console.ReadKey();
 
 
