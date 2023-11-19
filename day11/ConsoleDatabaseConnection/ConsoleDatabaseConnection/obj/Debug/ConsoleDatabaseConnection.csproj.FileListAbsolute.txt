@@ -1,0 +1,7 @@
+D:\asp2023-2nd\day11\ConsoleDatabaseConnection\ConsoleDatabaseConnection\bin\Debug\ConsoleDatabaseConnection.exe.config
+D:\asp2023-2nd\day11\ConsoleDatabaseConnection\ConsoleDatabaseConnection\bin\Debug\ConsoleDatabaseConnection.exe
+D:\asp2023-2nd\day11\ConsoleDatabaseConnection\ConsoleDatabaseConnection\bin\Debug\ConsoleDatabaseConnection.pdb
+D:\asp2023-2nd\day11\ConsoleDatabaseConnection\ConsoleDatabaseConnection\obj\Debug\ConsoleDatabaseConnection.csproj.AssemblyReference.cache
+D:\asp2023-2nd\day11\ConsoleDatabaseConnection\ConsoleDatabaseConnection\obj\Debug\ConsoleDatabaseConnection.csproj.CoreCompileInputs.cache
+D:\asp2023-2nd\day11\ConsoleDatabaseConnection\ConsoleDatabaseConnection\obj\Debug\ConsoleDatabaseConnection.exe
+D:\asp2023-2nd\day11\ConsoleDatabaseConnection\ConsoleDatabaseConnection\obj\Debug\ConsoleDatabaseConnection.pdb
