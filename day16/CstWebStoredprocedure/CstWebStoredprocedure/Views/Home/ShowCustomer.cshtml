@@ -1,0 +1,44 @@
+﻿@using CstWebStoredprocedure.Models
+
+@{
+    ViewBag.Title = "ShowCustomer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ShowCustomer</h2>
+
+<div>
+    <p>This is all customer records!</p>
+
+</div>
+
+
+<div>
+    <table class="table">
+        <thead><tr><td>CompanyName</td><td>ContactName</td></tr></thead>
+        
+        @foreach (UserInfo userInfo in (List<UserInfo>) ViewBag.userList)
+        {
+
+            <tr>
+                <td>@userInfo.CompanyName</td>
+                <td>@userInfo.ContactName</td>
+                
+
+            </tr>
+        }
+
+
+
+
+    </table>
+
+</div>
+<div><p>
+    @Html.Label("Total")
+    
+    @ViewBag.pCount
+    </p>
+   
+</div>
+

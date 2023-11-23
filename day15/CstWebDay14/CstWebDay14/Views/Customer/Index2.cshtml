@@ -1,0 +1,40 @@
+﻿@using CstWebDay14.Models
+
+@{
+    ViewBag.Title = "Index2";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index2</h2>
+
+this is Index 2 --all customer records
+<table class="table">
+    <thead class="table-dark"> <tr>
+        <td>CustomerID</td>
+        <td>CompanyName</td>
+        <td>ContactName</td>
+        <td>Address</td>
+
+
+    </tr></thead>
+    
+    @foreach (UserInfo userInfo in (List<UserInfo>) ViewBag.userList)
+    {
+        <tr>
+            <td>@userInfo.CustomerID</td>
+            <td>@userInfo.CompanyName</td>
+            <td>@userInfo.ContactName</td>
+            <td>@userInfo.Address</td>
+            
+
+        </tr>
+
+
+
+    }
+
+
+
+
+
+</table>

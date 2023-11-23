@@ -1,0 +1,36 @@
+﻿@using System.Data
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+<p h3>This is all customers records!!</p>
+@ViewBag.dt
+<table class="table">
+    <thead class="table-dark"> <tr>
+        <td>CustomerID</td>
+        <td>CompanyName</td>
+        <td>ContactName</td>
+        <td>Address</td>
+
+
+    </tr></thead>
+   
+    @foreach (DataRow datarow in ViewBag.dt.Rows)
+    {
+        <tr>
+            <td>@datarow["CustomerID"]</td>
+            <td>@datarow["CompanyName"]</td>
+            <td>@datarow["ContactName"]</td>
+            <td>@datarow["Address"]</td>
+
+        </tr>
+
+    }
+
+</table>
+
+
+
