@@ -27,3 +27,57 @@ SELECT TOP (1000) [CustomerID]
   where rownumber between 6 and 10
 
 
+
+
+
+  ---page navigation
+  --start
+  --end
+  --pageIndex
+  --pageSize
+  --pageCount  total pages
+  -------------- example create stored procedure-----
+  
+    DROP PROCEDURE GetPageList
+    GO 
+
+  Create PROC GetPageList
+
+  @pageIndex int,
+  @pageSize int,
+  @rowCount int output
+
+  as 
+
+  begin
+     
+	  set nocount on
+
+      select @rowCount=count(*) from customers
+		
+		select * from
+
+	  (select *,ROW_NUMBER() over (order by CustomerID desc) as rowIndex
+	  from customers) as t1
+
+	  where rowIndex between(@pageIndex-1)*@pageSize+1   and @pageIndex*@pageSize
+  
+  
+  end
+
+  --select * from
+
+  --(select *,ROW_NUMBER() over (order by CustomerID desc) as rowIndex
+  --from customers) as t1
+
+  --where rowIndex between 11 and 20
+
+  --select @@VERSION
+   
+   ---- execute stored procedure--
+  declare @temp int
+   exec GetPageList 5,9,@temp output
+   print @temp
+
+    use Cstcollege 
+	go

@@ -1,0 +1,30 @@
+﻿@using CstDay17EFDemo1.Models
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div>
+    <p>This is testing data</p>
+
+</div>
+
+<div>@Html.ActionLink("Add User","Add","UserInfo")</div>
+<div>
+    <table class="table">
+        <tr><td>Item</td><td>FirstName</td><td>CreateDatetime</td></tr>
+        @foreach (userInfo userinfo in Model)
+        {
+            <tr>
+                <td>@userinfo.id</td>
+                <td>@userinfo.FirstName</td>
+                <td>@userinfo.CreatDatetime</td>
+            </tr>
+        }
+
+
+
+
+    </table>
+</div>
