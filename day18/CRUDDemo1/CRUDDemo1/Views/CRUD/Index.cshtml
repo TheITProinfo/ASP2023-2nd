@@ -1,0 +1,41 @@
+﻿@model  IEnumerable<CRUDDemo1.Models.Student>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<p>@Html.ActionLink("Add Student","Create")</p>
+<div > 
+    <table class="table">
+    <tr>
+        <td>@Html.DisplayNameFor(model => model.id)</td>
+        <td>@Html.DisplayNameFor(model=>model.Name)</td>
+        <td>@Html.DisplayNameFor(model=>model.Branch)</td>
+        <td>@Html.DisplayNameFor(model=>model.Section)</td>
+        <td>@Html.DisplayNameFor(model=>model.Email)</td>
+        <td>operation</td>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            
+            <td>@Html.DisplayFor(model => item.id)</td>
+            <td>@Html.DisplayFor(model=>item.Name)</td>
+            <td>@Html.DisplayFor(model=>item.Branch)</td>
+            <td>@Html.DisplayFor(model=>item.Section)</td>
+            <td>@Html.DisplayFor(model=>item.Email)</td>
+            <td>
+                @Html.ActionLink("Delete","Delete",new{studentid=item.id})
+                @Html.ActionLink("Edit","Edit", new { studentid = item.id})
+
+            </td>
+
+        </tr>
+
+    }
+    
+    </table>  
+
+</div>
+

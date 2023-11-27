@@ -1,0 +1,46 @@
+﻿@model CRUDDemo1.Models.Student
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit Student</h2>
+
+@using (Html.BeginForm())
+{
+    <div class="form-horizontal">
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name)
+            @Html.EditorFor(model => model.Name)
+
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Branch)
+            @Html.EditorFor(model => model.Branch)
+
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Section)
+            @Html.EditorFor(model => model.Section)
+
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email)
+            @Html.EditorFor(model => model.Email)
+
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Update" class="btn btn-default" />
+            
+        </div>
+
+
+
+
+    </div>
+
+
+
+}
+
