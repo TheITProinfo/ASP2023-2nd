@@ -1,0 +1,43 @@
+﻿@model CRUDDemo.Models.Student
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+@using (Html.BeginForm())
+{
+
+<div class="form-horizontal">
+    <h4>Add student</h4>
+    <hr />
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name)
+        @Html.EditorFor(model => model.Name)
+
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Branch)
+        @Html.EditorFor(model => model.Branch)
+
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model=>model.Section)
+        @Html.EditorFor(model=>model.Section)
+
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model=>model.Email)
+        @Html.EditorFor(model=>model.Email)
+
+    </div>
+    <div class="form-group">
+        <input type="submit" valu="Add student" class="btn btn-danger"/>
+        <input  type="reset"  value="reset" class="btn btn-danger"/>
+
+    </div>
+
+</div>
+
+}
+

@@ -12,12 +12,30 @@ namespace CRUDDemo1.Controllers
     public class CRUDController : Controller
     {
         // GET: CRUD
-        public ActionResult Index()
+        public ActionResult Index(int pageIndex=1,int pageSize=5,string name=" ")
         { 
             // list all  records in Tables
             using (var context=new demoCRUDEntities())
             {
-                var data = context.Students.ToList();  // return records to list
+                //var data = context.Students.ToList();  // return records to list
+                var data = context.Students
+                    //.Where(x => x.Name.Contains(name))
+                    .OrderBy(x => x.id)
+                    .Skip((pageIndex - 1) * pageSize)
+                    .Take(pageSize)
+                    .ToList();
+                
+                // page counting
+                var totalRows = data.Count();
+                var totalPages = Math.Ceiling(totalRows * 1.00 / pageSize);
+
+                ViewBag.totalPages = totalPages;
+                ViewBag.pageIndex = pageIndex;
+                ViewBag.name = name;
+                ViewBag.pageSize = pageSize;
+
+
+
                 return View(data);
             }
 
