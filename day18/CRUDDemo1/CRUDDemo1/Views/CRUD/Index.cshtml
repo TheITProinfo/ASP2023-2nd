@@ -4,162 +4,130 @@
 }
 
 <h2>Index</h2>
-<p>@Html.ActionLink("Add Student","Create")</p>
+<p>@Html.ActionLink("Add Student", "Create")</p>
 <div class="input-group">
     <label>Name：</label>
     <input type="text" class="form-control" id="txtCondName" value="@ViewBag.name" />
     <input type="button" id="btnSearch" value="Search" onclick="page(1);" />
 </div>
-<div > 
+<div>
     <table class="table">
         <tr>
             <td>@Html.DisplayNameFor(model => model.id)</td>
-            <td>@Html.DisplayNameFor(model=>model.Name)</td>
-            <td>@Html.DisplayNameFor(model=>model.Branch)</td>
-            <td>@Html.DisplayNameFor(model=>model.Section)</td>
-            <td>@Html.DisplayNameFor(model=>model.Email)</td>
+            <td>@Html.DisplayNameFor(model => model.Name)</td>
+            <td>@Html.DisplayNameFor(model => model.Branch)</td>
+            <td>@Html.DisplayNameFor(model => model.Section)</td>
+            <td>@Html.DisplayNameFor(model => model.Email)</td>
             <td>operation</td>
 
         </tr>
         @foreach (var item in Model)
         {
             <tr>
-            
+
                 <td>@Html.DisplayFor(model => item.id)</td>
-                <td>@Html.DisplayFor(model=>item.Name)</td>
-                <td>@Html.DisplayFor(model=>item.Branch)</td>
-                <td>@Html.DisplayFor(model=>item.Section)</td>
-                <td>@Html.DisplayFor(model=>item.Email)</td>
+                <td>@Html.DisplayFor(model => item.Name)</td>
+                <td>@Html.DisplayFor(model => item.Branch)</td>
+                <td>@Html.DisplayFor(model => item.Section)</td>
+                <td>@Html.DisplayFor(model => item.Email)</td>
                 <td>
-                    @Html.ActionLink("Delete","Delete",new{studentid=item.id})
-                    @Html.ActionLink("Edit","Edit", new { studentid = item.id})
+                    @Html.ActionLink("Delete", "Delete", new { studentid = item.id })
+                    @Html.ActionLink("Edit", "Edit", new { studentid = item.id })
 
                 </td>
 
             </tr>
 
         }
-    
-    </table>  
+
+    </table>
 
 </div>
+
+
 <nav aria-label="...">
     <ul class="pagination">
-        <li class="page-item">
-            <span>Total</span> @ViewBag.totalPages 
-            No:<input type="number" min="1" max="@ViewBag.totalPages" id="pageIndex" value="@ViewBag.pageIndex" />
+        <li class="page-item ">
+            Total @ViewBag.totalPages pages，Current
+            <input type="number" min="1" max="@ViewBag.totalPages" id="pageIndex" value="@ViewBag.pageIndex" />
+            page，
 
-            page <select is="pageSize" onchane="page(1);">
-
-                @{ var ListPageSize = new List<int> { 5, 10, 20, 50, 100 }; }
-
-                @foreach (var item in ListPageSize)
+            <select id="pageSize" onchange="page(1);">
+                @{ var listPageSize = new List<int> { 5, 10, 20, 50, 100 }; }
+                @foreach (var item in listPageSize)
                 {
                     if (@ViewBag.pageSize == @item)
                     {
                         <option value="@item" selected="selected">@item</option>
-
-                    }
+ }
                     else
                     {
-
                         <option value="@item">@item</option>
-
-                    }
+}
                 }
-
-            </select> /per
-
+            </select>
+            page/per
         </li>
-
     </ul>
-    
     <ul class="pagination">
-        <li class="page-item">
-            <a clasa="page-link"  href="javascript:page(1);"  tabindex="" aria-disabled="True">home page</a> 
-
+        <li class="page-item ">
+            <a class="page-link" href="javascript:page(1);" tabindex="-1" aria-disabled="true">home page</a>
         </li>
-        
-        @if(@ViewBag.pageIndex>1)
+        @if (@ViewBag.pageIndex > 1)
         {
-        <li class="page-item">
-            <a class="page-link" href="javascript:page(@ViewBag.pageindex-1);">previous page</a>
-
-        </li>
-        }
-        
-        else  {
-        <li class="page-item disabled">
-            <a clas="page-link" href="javascript:page(@ViewBag.pageIndex-1);">previous page</a>
-        </li>
-        
-        }
-        
-        <li class="page-item" aria-current="page">
-            <span class="page-link">@ViewBag.pageIndex</span>
-        </li>
-        
-        <li class="page-item" aria-current="page">
-            <a class="page-link" href="javascript:page(@ViewBag.pageIndex+1);"> next page</a>
-        </li>
-        
-        @if (@ViewBag.pageIndex < @ViewBag.totalPages)
-        {
-            <li class="page-item" aria-currenr="page">
-                <a class="page-link" href="javascript:page(@ViewBag.pageIndex+1);">next page</a>
-            </li>
-        }
+            <li class="page-item"><a class="page-link" href="javascript:page(@ViewBag.pageIndex-1);">previous</a></li>
+ }
         else
         {
-            <li class="page-item disabled" aria-currenr="page">
-                <a class="page-link" href="javascript:page(@ViewBag.pageIndex+1);">next page</a>
-            </li>
-        } 
-        
-        <li class="page-item"></li>
-        <a class="page-link" href="javascript:page(@ViewBag.totalPages);"> last page </a>
-        
-        <li class="page-item">
-            <input type="button" class="page-link" value="Go" onlick="go()"/>
+            <li class="page-item disabled"><a class="page-link" href="javascript:page(@ViewBag.pageIndex-1);">previous</a></li>
+}
 
+
+        <li class="page-item " aria-current="page">
+            <span class="page-link"> @ViewBag.pageIndex</span>
         </li>
-       
 
+        @if (@ViewBag.pageIndex < @ViewBag.totalPages)
+        {
+            <li class="page-item " aria-current="page">
+                <a class="page-link" href="javascript:page(@ViewBag.pageIndex+1);">next </a>
+            </li>
+ }
+        else
+        {
+            <li class="page-item disabled" aria-current="page">
+                <a class="page-link" href="javascript:page(@ViewBag.pageIndex+1);">next </a>
+            </li>
+}
 
-
-
-
-
-
-
-
-
+        <li class="page-item">
+            <a class="page-link" href="javascript:page(@ViewBag.totalPages);">last</a>
+        </li>
+        <li class="page-item">
+            <input type="button" class="page-link" value="GO" onclick="go()" />
+        </li>
     </ul>
-    
+</nav>
 
-</nav> 
+@section scripts{
 
-@section scripts
-{
     <script>
-        function page(pageIndex) {
-            var name = $("#txtCondName").val();
-            var pageSize = $("#pageSize").val();
+    function page(pageIndex) {
+            var name = $("#txtCondName").val(); //获取搜索框的值
+            var pageSize = $("#pageSize").val(); //获取下拉框的值
 
-            window.location.href = "/CRUD/index?pageIndex=" + pageIndex + "&pageSize=" + pageSize + "&name=" + name;
+            window.location.href = "/CRUD/index?pageindex=" + pageIndex
+                + "&pageSize=" + pageSize + "&name=" + name;
 
         }
 
-
         function go() {
+            //获取输入的页码的值
             var pageIndex = $("#pageIndex").val();
             page(pageIndex);
 
-        }
-
-    </script>
-    
-    
+        }</script>
 
 }
+
 
